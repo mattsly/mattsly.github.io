@@ -6,9 +6,9 @@ Howdy, I'm Matt Sly.
 
 I live in Boston by way of Oakland (and Williamstown, San Francisco, Philadelphia, New Haven and Providence) and enjoy making software, playing sports, hanging out with my family and exploring the outdoors.
 
-I created [FutureMe](https://www.futureme.org) (with my friend Jay) way back in 2002...and then ran it as a "side-hustle" as grew it into a global business with millions of users world-wide. FutureMe has been featured in many publications (New York Times, Wired, CNN, LA Times, etc...) but my favorite bit of press is [an interview that I did with Scott Simon on on Weekend Edition](https://www.npr.org/templates/story/story.php?storyId=9261640). 
+I created [FutureMe](https://www.futureme.org) (with my friend Jay) way back in 2002...and then ran it as a "side-hustle" as it grew into a global business with millions of users. FutureMe has been featured in many publications (New York Times, Wired, CNN, LA Times, Oprah(!)...) but my favorite bit of press is [an interview that I did with Scott Simon on on Weekend Edition](https://www.npr.org/templates/story/story.php?storyId=9261640). 
 
-I [sold FutureMe in 2021](https://bootstrappers.com/how-a-letter-to-the-future-turned-into-a-life-changing-acquisition/) and am now working on a few new ideas and thinking about what I want to do with the rest of my life. Let me know if you have any ideas.
+I [sold FutureMe in 2021](https://bootstrappers.com/how-a-letter-to-the-future-turned-into-a-life-changing-acquisition/) and am now thinking about just what I want to do with the rest of my life. Let me know if you have any ideas.
 
 I recently built [The Parent Bank](https://www.theparentbank), which I think is [much better than a Piggy Bank](https://www.theparentbank.com/blog/posts/five-problems-with-a-piggy-bank) because (among other features) [it allows you to pay your kids a really high interest rate](https://www.theparentbank.com/blog/posts/you-should-pay-your-kids-a-really-high-interest-rate-on-their-savings-here-s-why-and-how).
 
