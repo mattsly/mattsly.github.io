@@ -6,7 +6,7 @@ https://docs.github.com/en/pages/quickstart
 https://jekyllrb.com
 
 
-### Running locally:
+### running locally:
 
 `bundle install`
 
@@ -16,15 +16,19 @@ On deploy, it will automatically publish to https://mattsly.github.io/mattsly.co
 
 Domain configuration is in the repo settings on GitHub
 
-### overriding theme defaults
+### deploying
 
-To override the theme defaults, copy the related file from the gem to the corresponding directory (this is what I've done for layouts/home and includes/footer)
+For now, I'm just committing everything to main. Once it's pushed to GitHub it will automatically deploy. namecheap.com is where the domain is registered and the DNS is set up (previously mattsly.com was hosted on S3)
+
+### overriding Jekyll theme defaults
+
+To override a Jekyll theme default, copy the related file from the gem to the corresponding directory (this is what I've done for layouts/home and includes/footer)
 
 To find the defaults run `bundle info --path minima`
 
 ...and then open in Finder and copy to the same path in this repo
 
-### notes on GH set up
+### notes on GitHub Pages set up
 
 1. Verify domain here: https://github.com/settings/pages
-2. Need to use https://github.com/mattsly/mattsly.github.io - which is set up at the root of mattsly.github.io (oringally I created a new project for mattsly.com which was serving at mattsly.github.io/mattsly.com - i.e. repo name...)
+2. Need to use https://github.com/mattsly/mattsly.github.io - which is set up at the root of mattsly.github.io (originally I created a new project for mattsly.com which was serving at mattsly.github.io/mattsly.com - i.e. repo name...)
