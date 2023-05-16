@@ -8,7 +8,7 @@ https://jekyllrb.com
 
 ### running locally:
 
-`bundle install`
+`bundle`
 
 `bundle exec jekyll serve`
 
