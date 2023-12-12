@@ -12,6 +12,9 @@ https://jekyllrb.com
 
 `bundle exec jekyll serve`
 
+it will starting running at http://127.0.0.1:4000 ()
+
+
 On deploy, it will automatically publish to https://mattsly.github.io/mattsly.com/
 
 Domain configuration is in the repo settings on GitHub
