@@ -8,12 +8,13 @@ https://jekyllrb.com
 
 ### running locally:
 
+cd to directroy root: `/Users/mattsly/Sites/GitHub/mattsly.github.io`
+
 `bundle`
 
 `bundle exec jekyll serve`
 
-it will starting running at http://127.0.0.1:4000 ()
-
+it will starting running at http://127.0.0.1:4000
 
 On deploy, it will automatically publish to https://mattsly.github.io/mattsly.com/
 
