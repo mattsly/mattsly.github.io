@@ -4,8 +4,9 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-ruby "2.7.3"
+ruby "3.3.0"
 
 gem "minima"
 gem "github-pages", "~> 228", group: :jekyll_plugins
 # note that version comes from here: https://pages.github.com/versions/
+gem "webrick", "~> 1.8"
