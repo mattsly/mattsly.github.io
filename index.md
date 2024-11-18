@@ -17,7 +17,7 @@ Also - you should ["shoot the two"](https://medium.com/@mattsly/shoot-the-two-ed
 
 I went to [Williams College](https://www.williams.edu/), where I played on a [really good basketball team](https://www.youtube.com/watch?v=2dAKpFzVJqs&ab_channel=WilliamsEphsSports) that twice went to the Division III Final Four. I also sang in [The Springstreeters](https://linktr.ee/springstreeters?fbclid=IwAR1ixdaJL-L5-wn0y2HQ8KVnlCNzN5RnJuStgQPA7sYYdZIlIhyYceb5rkc) with [some famous people](https://www.youtube.com/watch?v=VLZhzwtEcHU&ab_channel=TIFFTrailers), and [crashed the college servers]({% post_url 2009-07-25-dancing-baby-life-imitating-art %}) when my first ever web-site featuring [The Dancing Baby](https://en.wikipedia.org/wiki/Dancing_baby) went viral.
 
-I've started keeping track of [my favorite book/show/podcasts once a quarter]({% link qrecs.md %})...might be a product in here somewhere because Internet recommendations are pretty broken imho.
+I've started keeping track of my book/movie/podcast recommendations once a quarter]({% link qrecs.md %})...there might be a product in here somewhere because Internet recommendations are pretty broken imho. Thoughts?
 
 If any of this resonates or you want to learn more, feel free to reach out!
 
