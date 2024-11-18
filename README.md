@@ -8,7 +8,7 @@ https://jekyllrb.com
 
 ### running locally:
 
-cd to directroy root: `/Users/mattsly/Sites/GitHub/mattsly.github.io`
+cd to directroy root: `cd /Users/mattsly/Sites/GitHub/mattsly.github.io`
 
 `bundle`
 
