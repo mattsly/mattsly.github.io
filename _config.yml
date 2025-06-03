@@ -3,3 +3,5 @@ description: Matt Sly is a Boston-based software developer and over-the-hill joc
 markdown: kramdown
 theme: minima
 google_analytics: G-H20RP9B4EQ
+plugins:
+  - jekyll-target-blank

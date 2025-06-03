@@ -10,7 +10,7 @@ I've also worked as an executive at several Boston-area venture-backed startups:
 
 I recently built [The Parent Bank](https://www.theparentbank) because I decided that [the piggy bank is due for an upgrade](https://www.theparentbank.com/blog/posts/five-problems-with-a-piggy-bank).
 
-I'm a testicular cancer survivor, which you can read about in an essay I wrote called ["The Year I Went to War with My Body"](https://docs.google.com/document/d/1E3BUEockaah_Xjy0WYVwzR7fGXvSknVqXAuyv2GwlUA/edit?usp=sharing)
+I'm a testicular cancer survivor, which you can read about in an essay I wrote called ["The Year I Went to War with My Body"]({% post_url 2023-03-01-the-war-with-my-body %})
 
 I used to be a [pretty decent basketball player](https://photos.app.goo.gl/4noKg75z7k4vXJag8) even though my high school team's shorts were too small. Now I'm way over the hill, but I still enjoy playing hoops, as well as tennis, soccer and cycling. A long time ago I [coached high school basketball](https://photos.app.goo.gl/PPsTF9LEoRRYw2TK8) and took a small charter school without a gym [deep into the state play-offs](https://www.sfgate.com/preps/article/Gateway-beats-long-odds-to-reach-NorCal-playoffs-2812135.php). 
 Also - you should ["shoot the two"](https://medium.com/@mattsly/shoot-the-two-ed4aaa553294) when playing "winner's outs" half-court hoops.
@@ -22,4 +22,6 @@ I've started keeping track of my [book/movie/podcast recommendations once a quar
 If any of this resonates or you want to learn more, feel free to reach out!
 
 [LinkedIn](https://www.linkedin.com/in/mattsly/) &middot; [Twitter](https://twitter.com/mattsly)
+
+
 
