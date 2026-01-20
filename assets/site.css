@@ -10,7 +10,7 @@
   --hairline: rgba(17, 17, 17, 0.12);
 
   /* Links (light) */
---link: #355f8c;          /* slate blue */
+--link: #3686db;          /* slate blue */
 --link-hover: #1f3e63;    /* deeper blue */
 --link-visited: #6b5c8a;  /* dusty violet */
 --link-underline: rgba(53, 95, 140, 0.35);
