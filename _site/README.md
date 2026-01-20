@@ -6,11 +6,11 @@ https://jekyllrb.com
 
 ## Development Setup
 
-This site uses Jekyll and GitHub Pages. While GitHub Pages uses Ruby 3.3.4 in production, locally we're using Ruby 3.3.0 which works fine for development.
+This site uses Jekyll and GitHub Pages.
 
 ### Prerequisites
 
-- Ruby 3.3.0 (install via your preferred version manager)
+- Ruby 3.3.4 (install via your preferred version manager)
 - Bundler
 
 ### running locally:

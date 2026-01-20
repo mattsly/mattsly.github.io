@@ -1,0 +1,277 @@
+/* =========================
+   mattsly.com — understated, readable, a little slick
+   ========================= */
+
+/* ===== Tokens ===== */
+:root {
+  --bg: #fdfdfd;
+  --fg: #111;
+  --muted: rgba(17, 17, 17, 0.68);
+  --hairline: rgba(17, 17, 17, 0.12);
+
+  /* Links (light) */
+--link: #355f8c;          /* slate blue */
+--link-hover: #1f3e63;    /* deeper blue */
+--link-visited: #6b5c8a;  /* dusty violet */
+--link-underline: rgba(53, 95, 140, 0.35);
+
+
+
+  --accent: #2a7ae2;
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --bg: #0b0d10;
+    --fg: #e8e8ea;
+    --muted: rgba(232, 232, 234, 0.72);
+    --hairline: rgba(255, 255, 255, 0.14);
+
+    /* Links (dark) */
+    --link: #a6c2f0;
+    --link-hover: #ffffff;
+    --link-visited: #c0b2e8;
+    --link-underline: rgba(166, 194, 240, 0.35);
+
+    --accent: #8ab4f8;
+  }
+}
+
+/* ===== Base ===== */
+html { text-rendering: optimizeLegibility; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+/* Centered column */
+.wrapper {
+  max-width: 78ch;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .wrapper { max-width: 82ch; }
+}
+
+/* Headings: subtle serif vibe without importing fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 520;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.6rem 0;
+}
+
+/* Paragraph rhythm */
+p {
+  margin: 0 0 1.15em 0;
+}
+
+/* ===== Links (classy, understated) ===== */
+a {
+  color: var(--link);
+  text-decoration-line: underline;
+  text-decoration-color: var(--link-underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition:
+    color 140ms ease,
+    text-decoration-color 140ms ease,
+    text-underline-offset 140ms ease,
+    opacity 140ms ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.28em;
+}
+
+a:visited {
+  color: var(--link-visited);
+  opacity: 0.95;
+}
+
+/* Focus states that look intentional */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ===== Header (clean, modern, predictable) ===== */
+.site-header {
+  border-bottom: 1px solid var(--hairline);
+  padding: 0.75rem 0;
+
+  /* fallback */
+  background: transparent;
+  /* nicer if supported */
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Nav links are calmer than body links */
+.site-nav .page-link {
+  position: relative;
+  font-size: 0.95rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover {
+  color: var(--fg);
+}
+
+/* tiny nav underline reveal */
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.site-nav .page-link:hover::after {
+  opacity: 0.6;
+}
+
+/* ===== Page layout ===== */
+.page-content {
+  padding: 1.25rem 0 2rem 0;
+}
+
+.page-header h1 {
+  margin-bottom: 0.75rem;
+}
+
+/* ===== Posts ===== */
+.post-title {
+  font-size: clamp(2.0rem, 4vw, 2.6rem);
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.6rem;
+}
+
+.post-meta, .writing-meta {
+  color: var(--muted);
+}
+
+/* Keep long reads comfortable */
+.post-content {
+  max-width: 74ch;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 0 0 1.15em 1.2rem;
+  padding: 0;
+}
+
+.post-content li { margin: 0.25rem 0; }
+
+.post-content img {
+  border-radius: var(--radius);
+  border: 1px solid var(--hairline);
+}
+
+/* ===== Code ===== */
+pre, code {
+  background: color-mix(in srgb, var(--bg) 86%, var(--fg) 14%);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+}
+
+code { padding: 0.1em 0.35em; }
+pre  { padding: 12px 14px; overflow-x: auto; }
+pre code { padding: 0; border: 0; background: transparent; }
+
+/* ===== Blockquotes ===== */
+blockquote {
+  color: var(--muted);
+  border-left: 3px solid var(--hairline);
+  padding-left: 14px;
+  font-style: italic;
+  letter-spacing: 0;
+  margin: 0 0 1.15em 0;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  border-top: 1px solid var(--hairline);
+  color: var(--muted);
+  padding: 1.5rem 0;
+}
+
+/* ===== Subtle background texture ===== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(0,0,0,.035), transparent 45%),
+    radial-gradient(circle at 80% 30%, rgba(0,0,0,.028), transparent 50%),
+    radial-gradient(circle at 30% 80%, rgba(0,0,0,.022), transparent 55%);
+  opacity: .45;
+}
+
+@media (prefers-color-scheme: dark) {
+  body::before {
+    background:
+      radial-gradient(circle at 20% 10%, rgba(255,255,255,.06), transparent 45%),
+      radial-gradient(circle at 80% 30%, rgba(255,255,255,.05), transparent 50%),
+      radial-gradient(circle at 30% 80%, rgba(255,255,255,.04), transparent 55%);
+    opacity: .14;
+  }
+}
+
+/* ===== Micro-motion (respect reduced motion) ===== */
+@media (prefers-reduced-motion: no-preference) {
+  .writing-item {
+    transition: transform 120ms ease, background-color 120ms ease;
+  }
+  .writing-item:hover {
+    transform: translateY(-1px);
+    background: color-mix(in srgb, var(--bg) 92%, var(--fg) 8%);
+    border-radius: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

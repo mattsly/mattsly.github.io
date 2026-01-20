@@ -1,7 +1,7 @@
 ---
 title: "The year I went to war with my body"
 date: 2025-01-15
-description: "this is an excerpt test"
+description: "Between the ages of twenty and forty-five...I lived a very healthy twenty-five years. That changed abruptly in the summer of 2022, during my 46th year, when I was diagnosed with testicular cancer."
 image: "/assets/bald.png"
 ---
 
