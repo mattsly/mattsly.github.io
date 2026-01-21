@@ -1,0 +1,39 @@
+# Add external posts (Medium, etc.) here.
+# Dates should include a time to sort correctly (YYYY-MM-DD HH:MM:SS).
+# Example:
+# - title: "Post Title"
+#   date: 2024-05-18 00:00:00
+#   type: essay
+#   source: medium
+#   external_url: https://medium.com/@mattsly/introducing-the-parent-bank-750d9bf18e39
+#   minutes: 6
+#   description: "Short blurb..."
+#   image: /assets/images/example.jpg
+
+- title: "Introducing The Parent Bank!"
+  date: 2023-01-20 00:00:00
+  type: essay
+  source: medium
+  external_url: https://medium.com/@mattsly/introducing-the-parent-bank-750d9bf18e39
+  minutes: 3
+  description: "I wanted to teach my kids about personal finance and I decided the old school piggy bank is inadequate. So I decided to build The Parent Bank!"
+  image: https://miro.medium.com/v2/resize:fit:360/format:webp/1*yWN86sn7M1L57w_fY6uKVQ.png
+
+- title: "Product Usage vs. Product Utility"
+  date: 2018-06-03 00:00:00
+  type: essay
+  source: medium
+  external_url: https://medium.com/@mattsly/usage-vs-utility-1d1a7aa65330
+  minutes: 2
+  description: "It sounds simple, but don’t mistake product “engagement” for product quality"
+  image: https://miro.medium.com/v2/resize:fit:914/format:webp/1*as5zH1X1aFYa3KB62OVbkg.png
+
+- title: "Salary Adjusted Baseball Standings"
+  date: 2017-10-16 00:00:00
+  type: essay
+  source: medium
+  external_url: https://medium.com/@mattsly/salary-adjusted-baseball-standings-bb4a2a6913bb
+  minutes: 4
+  description: "Leveling the playing field. So to speak."
+  image: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*AHGY0c8DDT7_KN-XAcKEsg.png
+

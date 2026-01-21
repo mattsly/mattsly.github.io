@@ -1,6 +1,8 @@
 ---
-title: '"Dancing Baby", Redux'
-subtitle: Life imitating art, a decade later
+title: Dancing Baby", Redux
+description: Life imitating art, a decade later
+date: 2009-07-25
+image: "assets/famous-dancing-baby-animated.gif"
 ---
 
 Back in college, I wrote little MP3 player that was mashed up with that OG Internet Meme - [The Dancing Baby](http://en.wikipedia.org/wiki/Dancing_baby). 

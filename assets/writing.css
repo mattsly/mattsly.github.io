@@ -18,23 +18,6 @@
   opacity: 0.9;
 }
 
-.writing-controls {
-  display: flex;
-  gap: .5rem;
-  flex-wrap: wrap;
-  margin: 1rem 0 1.25rem 0;
-}
-
-.writing-filter {
-  border: 1px solid rgba(0,0,0,.2);
-  background: transparent;
-  padding: .35rem .6rem;
-  border-radius: 999px;
-  font: inherit;
-  cursor: pointer;
-}
-.writing-filter.is-active { border-color: rgba(0,0,0,.6); }
-
 .writing-log {
   list-style: none;
   margin: 0;
@@ -67,6 +50,19 @@
 }
 .writing-title:hover { text-decoration: underline; }
 
+.writing-external {
+  display: inline-flex;
+  align-items: center;
+  margin-left: .35rem;
+  opacity: .6;
+}
+.writing-external svg {
+  width: .85em;
+  height: .85em;
+  fill: currentColor;
+  display: block;
+}
+
 .writing-desc {
   margin-top: .35rem;
   opacity: .9;
@@ -94,8 +90,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .writing-filter { border-color: rgba(255,255,255,.25); }
-  .writing-filter.is-active { border-color: rgba(255,255,255,.55); }
   .writing-item { border-top-color: rgba(255,255,255,.18); }
   .writing-thumb { border-color: rgba(255,255,255,.18); }
   .writing-meta { opacity: .8; }
