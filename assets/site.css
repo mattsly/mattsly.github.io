@@ -179,6 +179,12 @@ button:focus-visible {
   margin-bottom: 0.75rem;
 }
 
+.page-header {
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
 /* ===== Posts ===== */
 .post-title {
   font-size: clamp(2.0rem, 4vw, 2.6rem);
@@ -187,13 +193,28 @@ button:focus-visible {
   margin-bottom: 0.6rem;
 }
 
+.post-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
 .post-meta, .writing-meta {
   color: var(--muted);
+}
+
+.post-meta {
+  margin-bottom: 1.1rem;
 }
 
 /* Keep long reads comfortable */
 .post-content {
   max-width: 74ch;
+}
+
+.post-content p {
+  font-size: 1.02rem;
+  line-height: 1.72;
 }
 
 .post-content ul,
@@ -205,6 +226,10 @@ button:focus-visible {
 .post-content li { margin: 0.25rem 0; }
 
 .post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.25rem auto 1.15em;
   border-radius: var(--radius);
   border: 1px solid var(--hairline);
 }
