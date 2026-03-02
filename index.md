@@ -18,8 +18,6 @@ I went to [Williams College](https://www.williams.edu/), where I played on a [re
 
 **If any of this resonates or you want to learn more, feel free to reach out!**
 
-<a class="page-link" href="{{ "/writing/" | relative_url }}">Assorted Writing</a>
-
 [LinkedIn](https://www.linkedin.com/in/mattsly/) &middot; [Twitter](https://twitter.com/mattsly) &middot; [Manifold](https://manifold.markets/mattsly) &middot; [QuarterlyGems](https://www.quarterlygems.com/users/mattsly)
 
 

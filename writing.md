@@ -20,7 +20,7 @@ permalink: /writing/
     <li class="writing-item">
       <div class="writing-row">
         <div class="writing-meta">
-          <span class="writing-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <span class="writing-date">{{ post.date | date: "%B %-d, %Y" }}</span>
           <span class="writing-dot">•</span>
           <span class="writing-time">~{{ minutes }} min</span>
         </div>

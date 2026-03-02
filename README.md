@@ -48,7 +48,19 @@ To find the defaults run `bundle info --path minima`
 
 - All external links automatically open in a new tab thanks to the `jekyll-target-blank` plugin
 - To add new posts, create markdown files in the `_posts` directory following the naming convention `YYYY-MM-DD-title.md`
+- Drafts live in `_drafts` (no date prefix) and can be previewed locally with `bundle exec jekyll serve --drafts`
 - Images should be placed in the `/assets/` directory
+
+### Image Paste Workflow (macOS)
+
+1. Copy an image to your clipboard.
+2. Run `scripts/paste-image.sh` from the repo root.
+3. The image is saved to `assets/` with a timestamped filename, and the markdown is pasted into the frontmost app.
+
+Notes:
+- Use `scripts/paste-image.sh --no-paste` to only copy markdown to the clipboard.
+- The first run may prompt for Accessibility permissions for "System Events".
+- For best results, install `pngpaste` (`brew install pngpaste`). The script falls back to AppleScript if it's not available.
 
 ### markdown cheatsheet
 https://www.markdownguide.org/cheat-sheet/
