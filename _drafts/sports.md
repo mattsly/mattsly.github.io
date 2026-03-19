@@ -2,7 +2,7 @@ Sports
 
 I figured out I was good at sports when I was about six years old.
 
-I don't remember a single moment when it became clear. No coach pulling me aside. No slow motion Disney movie event. Neither of my parents had really played sports. My dad's extracurriculars centered around music, and my mom had grown up a generation too early, before girls really had the chance to play. And yet, when I was in first grade, my dad, for reasons I still don't understand, signed me and a bunch of my friends up for the local recreational soccer league.
+I don't remember a single moment when it became clear that I was good at sports. No coach pulling me aside. No slow motion Disney movie event. Neither of my parents had really played sports. My dad's extracurriculars centered around music, and my mom had grown up a generation too early, before girls really had the chance to play. And yet, when I was in first grade, my dad, for reasons I still don't understand, signed me and a bunch of my friends up for the local recreational soccer league.
 
 We were called the Argonauts, after Jason and the Greek myth (the Greek Myths book was a staple of bedtime reading during my childhood). My mom made a "golden fleece" that was awarded by Coach aka Dad to to a standout player from that game. The golden fleece looked awesome but was scratchy and uncomfortable. We were playing in a first- and second-grade league, and we were all first graders. So our team of 6 year olds about 17 percent less physically developed than our 7 year old competition. We were terrible. Not charmingly bad. Just bad. We lost every game. We scored one goal all year, in a six-to-one loss that felt like a moral victory.
 
