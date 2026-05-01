@@ -226,7 +226,7 @@ button:focus-visible {
 .post-content li { margin: 0.25rem 0; }
 
 .post-content img {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
   display: block;
   margin: 0.25rem auto 1.15em;
