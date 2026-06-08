@@ -1,5 +1,12 @@
 title: mattsly.com
 description: Matt Sly is a Boston-based software developer and over-the-hill jock
 markdown: kramdown
-google_analytics: G-H20RP9B4EQ  
+google_analytics: G-H20RP9B4EQ
 permalink: /:year/:month/:day/:title
+
+defaults:
+  - scope:
+      path: "_posts/monthly"
+      type: "posts"
+    values:
+      monthly: true

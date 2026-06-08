@@ -51,16 +51,24 @@ To find the defaults run `bundle info --path minima`
 - Drafts live in `_drafts` (no date prefix) and can be previewed locally with `bundle exec jekyll serve --drafts`
 - Images should be placed in the `/assets/` directory
 
-### Image Paste Workflow (macOS)
+### Post visibility
 
-1. Copy an image to your clipboard.
-2. Run `scripts/paste-image.sh` from the repo root.
-3. The image is saved to `assets/` with a timestamped filename, and the markdown is pasted into the frontmost app.
+The site has two content sections with different visibility rules:
 
-Notes:
-- Use `scripts/paste-image.sh --no-paste` to only copy markdown to the clipboard.
-- The first run may prompt for Accessibility permissions for "System Events".
-- For best results, install `pngpaste` (`brew install pngpaste`). The script falls back to AppleScript if it's not available.
+**`/writing`** — shows all posts *except* those in `_posts/monthly/`. Exclusion is based purely on directory path, no frontmatter needed.
+
+**`/monthly`** — shows only posts from `_posts/monthly/`, excluding any with `status: draft` in their frontmatter. Use `status: draft` for in-progress monthly posts you want to preview via direct URL but not yet list publicly (e.g. the current month). All monthly posts are technically public at their permalink — they're just unlinked until ready.
+
+### Pasting Images into Markdown
+
+Install the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) extension by mushanshitiancai in VS Code.
+
+**Usage:** With the cursor placed where you want the image in your markdown file, press `Cmd+Option+V`. The extension will:
+
+1. Save the clipboard image to `assets/` named after the current file (e.g., editing `2024-01-01-cancer-essay.md` produces `assets/2024-01-01-cancer-essay-2024-01-01-10-30-00.png`)
+2. Insert the correct markdown reference at the cursor: `![](/assets/filename.png)`
+
+The `.vscode/settings.json` in this repo is already configured — no extra setup needed beyond installing the extension.
 
 ### markdown cheatsheet
 https://www.markdownguide.org/cheat-sheet/

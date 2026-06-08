@@ -9,7 +9,7 @@ permalink: /writing/
 
 <ul class="writing-log" id="writingLog">
   {%- assign external = site.data.writing_external | default: empty -%}
-  {%- assign posts = site.posts | where_exp: "p", "p.path contains '_posts/monthly/' == false" | concat: external | sort: "date" | reverse -%}
+  {%- assign posts = site.posts | where_exp: "p", "p.monthly != true" | concat: external | sort: "date" | reverse -%}
   {%- for post in posts -%}
     {%- assign type = post.type | default: "essay" -%}
     {%- if post.minutes -%}
