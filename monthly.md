@@ -5,7 +5,7 @@ permalink: /monthly
 ---
 
 <ul class="writing-log" id="monthlyLog">
-  {%- assign posts = site.posts | where_exp: "p", "p.path contains '_posts/monthly/'" | sort: "date" | reverse -%}
+  {%- assign posts = site.posts | where_exp: "p", "p.path contains '_posts/monthly/' and p.status != 'draft'" | sort: "date" | reverse -%}
   {%- for post in posts -%}
     {%- if post.minutes -%}
       {%- assign minutes = post.minutes -%}
