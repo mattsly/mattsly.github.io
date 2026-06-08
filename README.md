@@ -51,6 +51,14 @@ To find the defaults run `bundle info --path minima`
 - Drafts live in `_drafts` (no date prefix) and can be previewed locally with `bundle exec jekyll serve --drafts`
 - Images should be placed in the `/assets/` directory
 
+### Post visibility
+
+The site has two content sections with different visibility rules:
+
+**`/writing`** — shows all posts *except* those in `_posts/monthly/`. Exclusion is based purely on directory path, no frontmatter needed.
+
+**`/monthly`** — shows only posts from `_posts/monthly/`, excluding any with `status: draft` in their frontmatter. Use `status: draft` for in-progress monthly posts you want to preview via direct URL but not yet list publicly (e.g. the current month). All monthly posts are technically public at their permalink — they're just unlinked until ready.
+
 ### Pasting Images into Markdown
 
 Install the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) extension by mushanshitiancai in VS Code.
